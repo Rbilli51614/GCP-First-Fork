@@ -25,6 +25,12 @@ cat <<EOF > /var/www/html/index.html
 <h3>Created with a direct input startup script!</h3>
 <p><b>Instance Name:</b> $(hostname -f)</p>
 <p><b>Instance Private IP Address: </b> $local_ipv4</p>
+
+<br>
+# insert an image or GIF
+<img src="https://media.tenor.com/_hJhq4qFukwAAAAM/are-you-ready-for-that-jiggle-lizzo.gif">
+<br>
+
 <p><b>Zone: </b> $zone</p>
 <p><b>Project ID:</b> $project_id</p>
 <p><b>Network Tags:</b> $network_tags</p>
