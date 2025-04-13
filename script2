@@ -27,7 +27,6 @@ cat <<EOF > /var/www/html/index.html
 <p><b>Instance Private IP Address: </b> $local_ipv4</p>
 
 <br>
-# insert an image or GIF
 <img src="https://media.tenor.com/_hJhq4qFukwAAAAM/are-you-ready-for-that-jiggle-lizzo.gif">
 <br>
 
